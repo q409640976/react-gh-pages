@@ -13,26 +13,23 @@ function App() {
           <li><span class="font-weight-bold">Github: </span><a target="_blank" href="https://github.com/LeoSirius">https://github.com/LeoSirius</a></li>
         </ul>
         <div>
-        <h2>本站源码</h2>
-          <div class="work-main-content">
-            <a href="https://github.com/LeoSirius/react-gh-pages" class="work-title">本站源码</a>
-            <p>本站是用react写的静态网站，用gh-pages把编译后的代码托管到github pages仓库里</p>
-          </div>
-          <h2>Markdown Projects</h2>
+          <h2>Projects</h2>
           <div class="work-main-content">
             <a href="https://851958789.gitbook.io/leo-notes/" class="work-title">学习笔记</a>
             <p>读书笔记</p>
             <a href="https://github.com/LeoSirius/leetcode_solutions" class="work-title">leetcode刷题笔记</a>
             <p>几乎每题都有解题思路和单元测试，不断补充中</p>
+            <a href="https://github.com/LeoSirius/code_beginning_linux_programming" class="work-title">Linux程序设计 - 全书代码</a>
+            <p>持续更新中...</p>
+            <a href="https://github.com/LeoSirius/code_apue" class="work-title">apue - 全书代码</a>
+            <p>持续更新中...</p>
+            <a href="https://github.com/LeoSirius/code_go_tour" class="work-title">a tour of go - 全站代码</a>
+            <p>持续更新中...</p>
           </div>
-          <h2>Other Projects</h2>
-          <div class="work-main-content">
-            <a href="https://github.com/LeoSirius/code_beginning_linux_programming" class="work-title">《Linux程序设计》</a>
-            <p></p>
-            <a href="https://github.com/LeoSirius/code_apue" class="work-title">《apue》</a>
-            <p></p>
-            <a href="https://github.com/LeoSirius/code_go_tour" class="work-title">a tour of go</a>
-            <p></p>
+          <div class="foot-content">
+            <h5>关于本站</h5>
+            <a href="https://github.com/LeoSirius/react-gh-pages" class="foot-title">本站源码</a>
+            <p>本站是我的个人导航站。本站是用react写的静态网站，用gh-pages把编译后的代码托管到github pages仓库里</p>
           </div>
         </div>
       </div>
