@@ -15,8 +15,8 @@ function App() {
         <div>
           <h2>Projects</h2>
           <div class="work-main-content">
-            <a href="https://851958789.gitbook.io/leo-notes/" class="work-title">学习笔记</a>
-            <p>读书笔记</p>
+            {/* <a href="https://851958789.gitbook.io/leo-notes/" class="work-title">学习笔记</a>
+            <p>读书笔记</p> */}
             <a href="https://github.com/LeoSirius/leetcode_solutions" class="work-title">leetcode刷题笔记</a>
             <p>几乎每题都有解题思路和单元测试，不断补充中</p>
             <a href="https://github.com/LeoSirius/code_apue" class="work-title">apue - 全书代码</a>
