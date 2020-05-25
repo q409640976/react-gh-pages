@@ -15,8 +15,8 @@ function App() {
         <div>
           <h2>Projects</h2>
           <div class="work-main-content">
-            <a href="https://leosirius.fun/" class="work-title">Blog</a>
-            <p>Blog</p>
+            <a href="https://leosirius.fun/" class="work-title">blog</a>
+            <p>blog</p>
             <a href="https://github.com/LeoSirius/leetcode_solutions" class="work-title">leetcode刷题笔记</a>
             <p>几乎每题都有解题思路和单元测试，不断补充中</p>
             <a href="https://github.com/LeoSirius/code_apue" class="work-title">apue - 全书代码</a>
@@ -25,7 +25,7 @@ function App() {
             <p>持续更新中...</p>
             <a href="https://github.com/LeoSirius/code_go_tour" class="work-title">a tour of go - 全站代码</a>
             <p>持续更新中...</p>
-            <a href="https://github.com/LeoSirius/code_beginning_linux_programming" class="work-title">Linux程序设计 - 全书代码</a>
+            <a href="https://github.com/LeoSirius/code_beginning_linux_programming" class="work-title">linux程序设计 - 全书代码</a>
             <p>持续更新中...</p>
           </div>
           <div class="foot-content">
