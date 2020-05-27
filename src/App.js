@@ -1,5 +1,15 @@
 import React from 'react';
 import './css/main.css';
+import './css/project-item.css';
+
+function ProjectItem(props) {
+  return (
+    <div className="project-item">
+      <a className="project-title" href={props.url}>{props.name}</a>
+      <p className="project-desc">{props.desc}</p>
+    </div>
+  );
+}
 
 function App() {
   return (
@@ -14,19 +24,32 @@ function App() {
         </ul>
         <div>
           <h2 className="maroon-text">Projects</h2>
-          <div class="work-content">
-            <a href="https://leosirius.fun/" class="work-title">blog</a>
-            <p>blog</p>
-            <a href="https://github.com/LeoSirius/leetcode_solutions" class="work-title">leetcode刷题笔记</a>
-            <p>几乎每题都有解题思路和单元测试，不断补充中</p>
-            <a href="https://github.com/LeoSirius/code_apue" class="work-title">apue - 全书代码</a>
-            <p>持续更新中...</p>
-            <a href="https://github.com/LeoSirius/code_unp" class="work-title">unp - 全书代码</a>
-            <p>持续更新中...</p>
-            <a href="https://github.com/LeoSirius/code_go_tour" class="work-title">a tour of go - 全站代码</a>
-            <p>持续更新中...</p>
-            <a href="https://github.com/LeoSirius/code_beginning_linux_programming" class="work-title">linux程序设计 - 全书代码</a>
-            <p>持续更新中...</p>
+          <div class="project-list">
+            <ProjectItem
+              url={"https://leosirius.fun/"}
+              name={"blog"}
+              desc={"blog"}
+            />
+            <ProjectItem
+              url={"https://github.com/LeoSirius/leetcode_solutions"}
+              name={"leetcode刷题笔记"}
+              desc={"几乎每题都有解题思路和单元测试，不断补充中"}
+            />
+            <ProjectItem
+              url={"https://github.com/LeoSirius/code_apue"}
+              name={"apue - 全书代码"}
+              desc={"持续更新中..."}
+            />
+            <ProjectItem
+              url={"https://github.com/LeoSirius/code_unp"}
+              name={"unp - 全书代码"}
+              desc={"持续更新中..."}
+            />
+            <ProjectItem
+              url={"https://github.com/LeoSirius/code_beginning_linux_programming"}
+              name={"linux程序设计 - 全书代码"}
+              desc={"持续更新中..."}
+            />
           </div>
           <div class="footer">
             <h5 className="maroon-text">关于本站</h5>

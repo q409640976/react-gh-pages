@@ -1,0 +1,17 @@
+div.project-item {
+  background-color: lightgrey;
+  border-left: 6px solid red;
+}
+
+.project-title {
+  margin-left: 10px;
+}
+
+.project-title:hover {
+  background-color: rgb(102, 255, 204);
+  color: maroon;
+}
+
+.project-desc {
+  margin-left: 20px;
+}
