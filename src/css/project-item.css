@@ -1,15 +1,20 @@
 div.project-item {
+  padding: 5px;
   background-color: lightgrey;
   border-left: 6px solid red;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  transition: 0.2s ease-out;
+}
+
+div.project-item:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .project-title {
   margin-left: 10px;
-}
-
-.project-title:hover {
-  background-color: rgb(102, 255, 204);
-  color: maroon;
+  font-size: 20px;
 }
 
 .project-desc {

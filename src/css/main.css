@@ -4,12 +4,14 @@ body {
 
 a {
   color: rgb(178, 116, 34);
+  transition: 0.1s;
   
 }
 
 a:hover {
-  color: crimson;
-  text-decoration:none
+  color: maroon;
+  text-decoration:none;
+  background-color: rgb(102, 255, 204);
 }
 
 .maroon-text {
